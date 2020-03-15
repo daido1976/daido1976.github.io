@@ -18,7 +18,7 @@
         width="128"
         height="128"
       />
-      <p>Hello world!</p>
+      <p id="target">Hello world!</p>
     </header>
 
     <main>
@@ -64,4 +64,11 @@
       <p>&copy; 2020 daido1976</p>
     </footer>
   </body>
+  <script>
+    const target = document.querySelector("#target");
+    target.addEventListener("click", e => {
+      e.target.innerHTML =
+        "<a href='https://github.com/daido1976/daido1976.github.io' target='_blank' rel='noopener noreferrer'>View source</a>";
+    });
+  </script>
 </html>
