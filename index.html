@@ -1,1 +1,157 @@
-Hello World
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>daido1976.github.io</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+    }
+
+    html { font-size: 110%; }
+    body {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      font-size: 1rem;
+      font-family: "Lato", Arial, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      color: hsla(217, 38%, 31%, 1.0);
+      line-height: 1.4;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    header h1 a {
+      color: hsla(217, 38%, 31%, 1.0);
+      text-decoration: none;
+    }
+    header section {
+      display: inline-flex;
+      margin-top: 2rem;
+      align-items: center;
+    }
+    header section img {
+      min-width: 128px;
+      width: 128px;
+      height: 128px;
+      border-radius: 128px;
+      margin: 0 auto;
+    }
+    header section p {
+      margin-left: 1rem;
+      text-align: left;
+    }
+
+    nav {
+      margin: 2rem 0;
+      text-align: center;
+    }
+    nav ul { list-style: none; }
+    nav ul li { display: inline; }
+    nav ul li:not(:last-child)::after { content: " /" }
+    nav ul li a { color: hsla(217, 38%, 20%, 1.0); }
+    nav ul li a:hover { text-decoration: underline; }
+
+    .container:not(:target) {
+      display: none;
+    }
+
+    .container:target {
+      display: block;
+    }
+
+    .container { margin: 3rem 0; }
+    .container > section { margin-top: 3rem; }
+
+    .container h2 {
+      margin: 2rem auto;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 300;
+      color: hsla(217, 38%, 31%, 1.0);
+    }
+
+    .container section h3 {
+      border-bottom: 2px solid hsla(217, 71%, 38%, 1.0);
+      color: hsla(217, 71%, 38%, 1.0);
+      font-size: 1.5rem;
+    }
+    .container section section h4 { margin-top: 2rem; font-size: 1.0rem; }
+    .container section section h4 a { color: hsla(217, 38%, 20%, 1.0); }
+    .container section section h4 a:hover { color: hsla(217, 38%, 20%, 0.5); }
+    .container section section p { margin: 0.5rem 0 0 1rem; }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="/">daido1976.github.io</a></h1>
+    <section>
+      <img src="images/daido.jpg" alt="profile image" width="128" height="128">
+      <p>
+        Hello! I am daido1976!
+      </p>
+    </section>
+  </header>
+  <nav>
+    <ul class="tabs">
+      <li><a href="#links">Links</a></li>
+    </ul>
+  </nav>
+
+  <div id="links" class="container">
+    <h2>Links</h2>
+
+    <section>
+      <h3>Codes</h3>
+
+      <section>
+        <h4><a href="https://github.com/daido1976">GitHub</a></h4>
+      </section>
+
+    </section>
+
+    <section>
+      <h3>Articles</h3>
+
+      <section>
+        <h4><a href=" https://daido.hatenablog.jp/">Note</a></h4>
+      </section>
+
+      <section>
+        <h4><a href="http://qiita.com/daido1976/items">Qiita</a></h4>
+      </section>
+
+    </section>
+
+    <section>
+      <h3>SNS</h3>
+
+      <section>
+        <h4><a href="https://twitter.com/daido1976">Twitter</a></h4>
+      </section>
+
+      <section>
+        <h4><a href="https://facebook.com/shota.daido.5">Facebook</a><h4>
+      </section>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2020 daido1976</p>
+  </footer>
+</body>
+</html>
