@@ -69,6 +69,7 @@ nav ul li a:hover { text-decoration: underline; }
 .container section section h4 { margin-top: 2rem; font-size: 1.0rem; }
 .container section section h4 a { color: black  }
 .container section section h4 a:hover { opacity: 0.8; }
+.container section section p { margin: 1rem 0 0 1rem; }
 
 footer {
   margin-top: 3rem;
