@@ -27,6 +27,13 @@ header p {
   margin-top: 1rem;
   letter-spacing: 1.5px;
 }
+/* style onClick */
+header p a {
+  color: black;
+}
+header p a:hover {
+  opacity: 0.8;
+}
 
 main {
   margin: 3rem 0;
